@@ -15,6 +15,7 @@
 		3D8D7B78254FCF3C00AD86EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D7B76254FCF3C00AD86EE /* LaunchScreen.storyboard */; };
 		3D8D7B83254FCF3C00AD86EE /* ImageDataFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D7B82254FCF3C00AD86EE /* ImageDataFetchTests.swift */; };
 		3D8D7B8E254FCF3D00AD86EE /* ImageDataFetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D7B8D254FCF3D00AD86EE /* ImageDataFetchUITests.swift */; };
+		3D8D7B9F254FCF6300AD86EE /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D7B9E254FCF6200AD86EE /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3D8D7B89254FCF3C00AD86EE /* ImageDataFetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDataFetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8D7B8D254FCF3D00AD86EE /* ImageDataFetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataFetchUITests.swift; sourceTree = "<group>"; };
 		3D8D7B8F254FCF3D00AD86EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8D7B9E254FCF6200AD86EE /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3D8D7B6B254FCF3800AD86EE /* AppDelegate.swift */,
 				3D8D7B6D254FCF3800AD86EE /* SceneDelegate.swift */,
 				3D8D7B6F254FCF3800AD86EE /* ViewController.swift */,
+				3D8D7B9E254FCF6200AD86EE /* UIImageView+Extensions.swift */,
 				3D8D7B71254FCF3800AD86EE /* Main.storyboard */,
 				3D8D7B74254FCF3C00AD86EE /* Assets.xcassets */,
 				3D8D7B76254FCF3C00AD86EE /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				3D8D7B70254FCF3800AD86EE /* ViewController.swift in Sources */,
 				3D8D7B6C254FCF3800AD86EE /* AppDelegate.swift in Sources */,
+				3D8D7B9F254FCF6300AD86EE /* UIImageView+Extensions.swift in Sources */,
 				3D8D7B6E254FCF3800AD86EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
